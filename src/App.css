@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+#root {
+  text-align: center;
+}
+.page{
+  @apply w-screen;
+  @apply h-screen;
+  @apply bg-black;
+  @apply flex flex-col justify-center items-center;
+}
+
+:root {
+  --color-dark-green: #769656;
+  --color-light-green: #eeeed2;
+}
+.piece{
+  transform: scale(1.6);
+}
